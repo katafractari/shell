@@ -49,7 +49,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH=$HOME/.myrepos:/usr/local/bin:$PATH
+export PATH=$HOME/.myrepos:$HOME/.homesick/repos/homeshick/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -73,6 +73,9 @@ source $ZSH/oh-my-zsh.sh
 # Vi mode
 bindkey -v
 bindkey '^R' history-incremental-search-backward
+
+# Homesick
+source $HOME/.homesick/repos/homeshick/homeshick.sh
 
 # Aliases
 export EDITOR='vim'
