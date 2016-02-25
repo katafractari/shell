@@ -45,11 +45,11 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man archlinux systemd)
+plugins=(git colored-man archlinux systemd gradle)
 
 # User configuration
 
-export PATH=$HOME/.myrepos:$HOME/.homesick/repos/homeshick/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.myrepos:$HOME/.homesick/repos/homeshick/bin:/usr/local/bin:$(ruby -e 'print Gem.user_dir')/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
