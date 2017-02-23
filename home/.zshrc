@@ -80,4 +80,3 @@ source $HOME/.homesick/repos/homeshick/homeshick.sh
 
 # Aliases
 export EDITOR='vim'
-
