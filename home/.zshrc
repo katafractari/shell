@@ -80,3 +80,6 @@ source $HOME/.homesick/repos/homeshick/homeshick.sh
 
 # Aliases
 export EDITOR='vim'
+
+# NVM
+source /usr/share/nvm/init-nvm.sh
