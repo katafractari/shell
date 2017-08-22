@@ -49,7 +49,7 @@ plugins=(git colored-man archlinux systemd gradle npm node git-flow)
 
 # User configuration
 
-export PATH=$HOME/.myrepos:$HOME/.homesick/repos/homeshick/bin:/usr/local/bin:$(ruby -e 'print Gem.user_dir')/bin:$PATH
+export PATH=$HOME/.azure-cli/bin:$HOME/.myrepos:$HOME/.homesick/repos/homeshick/bin:/usr/local/bin:$(ruby -e 'print Gem.user_dir')/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,3 +83,6 @@ export EDITOR='vim'
 
 # NVM
 source /usr/share/nvm/init-nvm.sh
+
+# Azure CLI
+source /home/rok/.azure-cli/az.completion
